@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    font-family: 'Itim',cursive;
+}
+
+body {
+    background: black;
+}
+
+p {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.songs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.lista {
+    display: flex;
+}
+
+.first-song {
+    font-size: 30px;
+    color: #e4007c;
+}
+
+.two-song {
+    font-size: 30px;
+    color: darkmagenta;
+}
+
+.three-song {
+    font-size: 30px;
+    color: #7688af;
+}
+
+.four-song {
+    font-size: 30px;
+    color: aqua;
+}
